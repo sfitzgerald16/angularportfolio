@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Open+Sans+Condensed:300,700');
+
+
+/*NAV BEGINS*/
+.anton-text{
+  font-family: 'Anton', sans-serif;
+}
+#menu{
+  background: #333333;
+  height: 75px;
+}
+
+.navbar-static-top {
+  margin: 0;
+}
+
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus{
+  color: white;
+  background-color: #333333;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>.active>a:hover{
+  background: #4C4C4C;
+}
+
+.fa{
+  color: #FFFFFF;
+}
+
+#right-nav-icons{
+  display: flex;
+  height: 75px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.white-text{
+  color: white;
+}
+
+.sans-text {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.5em;
+    background-color: white;
+    padding: 25px;
+}
+
+.nav-pills {
+  font-size: 1.75em;
+  background-color: white;
+  color: black;
+}
+
+.nav-pills>li>a:hover, .nav-pills>.active>a:hover {
+  background-color: #EEEEEE;
+}
+
+.nav-pills>li>a {
+  color: black;
+}
