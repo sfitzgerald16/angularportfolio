@@ -1,0 +1,9 @@
+.row  {
+  border-bottom: 1px solid black;
+}
+
+.image-placeholder {
+  background-color: grey;
+  width: 320px;
+  height: 200px;
+}
