@@ -1,13 +1,17 @@
 <div class="container">
   <h1 class="page-header">Contact Me</h1>
-  <div class="row show-hide-message">
+  <p><strong>Email: </strong><a href="mailto:fitzgerald.shannonlee@gmail.com">fitzgerald.shannonlee@gmail.com</a></p>
+  <p><strong>Phone: </strong>559.718.4170</p>
+  <p><a href="https://www.linkedin.com/in/shannon-fitzgerald">LinkedIn</a></p>
+  <p><a href="https://twitter.com/misfitz616">Twitter</a></p>
+  <!-- <div class="row show-hide-message">
     <div [ngClass]="messageClass">
     {{message}}
     </div>
   </div>
-  <form [formGroup]="form" (submit)="onSubmit()">
+  <form [formGroup]="form" (submit)="onSubmit()"> -->
     <!-- Name -->
-    <div class="form-group">
+    <!-- <div class="form-group">
       <label for="name">Name</label>
       <div [ngClass]="{'has-error': (form.controls.name.errors && form.controls.name.dirty), 'has-success': !form.controls.name.errors}">
         <input
@@ -20,9 +24,9 @@
           <li *ngIf="form.controls.name.errors?.required && form.controls.name.dirty">Name is required.</li>
         </ul>
       </div>
-    </div>
+    </div> -->
     <!-- Email -->
-    <div class="form-group">
+    <!-- <div class="form-group">
       <label for="email">Email</label>
       <div [ngClass]="{'has-error': (form.controls.email.errors && form.controls.email.dirty), 'has-success': !form.controls.email.errors}">
         <input
@@ -36,9 +40,9 @@
           <li *ngIf="form.controls.email.errors?.validateEmail && form.controls.email.dirty">Must be a valid email.</li>
         </ul>
       </div>
-    </div>
+    </div> -->
     <!-- Message -->
-    <div class="form-group">
+    <!-- <div class="form-group">
       <label for="comment">Message</label>
       <div [ngClass]="{'has-error': (form.controls.comment.errors && form.controls.comment.dirty), 'has-success': !form.controls.comment.errors}">
         <textarea name="comment" class="form-control" cols="30" rows="10" formControlName="comment"></textarea>
@@ -46,8 +50,8 @@
           <li *ngIf="(form.controls.comment.errors?.required && form.controls.comment.dirty) || (form.controls.comment.errors?.minlength && form.controls.comment.dirty)">Message is required.</li>
         </ul>
       </div>
-    </div>
+    </div> -->
     <!-- Submit -->
-    <input [disabled]="!form.valid || processing" type="submit" class="btn btn-primary" value="Submit">
-  </form>
+    <!-- <input [disabled]="!form.valid || processing" type="submit" class="btn btn-primary" value="Submit">
+  </form> -->
 </div>
